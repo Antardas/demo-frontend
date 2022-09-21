@@ -18,7 +18,7 @@ const Home = () => {
     <div>
       <Navbar />
       <AppNavbar />
-      <Carousel />
+       <Carousel />
       <About />
       <Attractions />
       <Activities />
@@ -29,7 +29,7 @@ const Home = () => {
       <Experience />
       <Inspiration />
       <Subscribe />
-      <Footer />
+      <Footer /> {/**/}
     </div>
   );
 }

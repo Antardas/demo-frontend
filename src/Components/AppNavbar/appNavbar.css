@@ -1,3 +1,6 @@
+.main-menu-container {
+  position: relative;
+}
 .appNavbar-container {
   display: flex;
   flex-direction: row;
@@ -19,7 +22,7 @@
   width: 1200px;
   display: flex;
   justify-content: space-between;
-    align-items: center;
+  align-items: center;
 }
 .logo-text {
   display: flex;
@@ -64,9 +67,136 @@
   cursor: pointer;
 }
 .menu-container > ul > li:hover {
-  color: #FC916A;
+  color: #fc916a;
 }
 .menu-container > ul > li > a {
   text-decoration: none;
   color: #ffffff;
 }
+.menu-icon {
+  display: none;
+ border: none;
+ background: none;
+ border: none;
+ color: #fc916a;
+ font-size: 2rem;
+ padding: 2rem;
+}
+.icon-fixed {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+/* Responsive */
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .menu-icon {
+    display: block;
+  }
+  .appNavbar-container {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: -100%;
+  }
+  .show {
+    left: 0%;
+  }
+
+  .menu-icon {
+    position: absolute;
+    display: block;
+    z-index: 1;
+  }
+
+
+/* Inline #5 | http://localhost:3000/ */
+
+.content-container {
+  /* width: 1200px; */
+  width: 100%;
+  flex-direction: column;
+}
+
+.menu-container > ul {
+  /* flex-direction: row; */
+  flex-direction: column;
+}
+.content-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.menu-container > ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+
+}
+/* Mobile */
+
+/* Inline #16 | http://localhost:3000/ */
+
+.appNavbar-container {
+  /* flex-direction: row; */
+  /* height: 100px; */
+  flex-direction: column;
+  height: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .appNavbar-container {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: -100%;
+  }
+  .show {
+    left: 0%;
+  }
+
+  .menu-icon {
+    position: absolute;
+    display: block;
+    z-index: 1;
+  }
+
+  .content-container {
+    width: 100%;
+    flex-direction: column;
+    height: 0%;
+  }
+
+  .logo-text {
+    font-size: 14px;
+  }
+
+  .logo-text > span:nth-child(1) {
+    font-size: 18px;
+  }
+
+  .menu-container > ul {
+    flex-direction: column;
+  }
+
+  .menu-container {
+    align-items: center;
+  }
+}
+/* END */
