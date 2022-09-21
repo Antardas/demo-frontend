@@ -12,7 +12,7 @@ const Dashboard = () => {
   const onQuoteSubmit = (e) => {
     console.log(quote);
     e.preventDefault();
-    fetch("http://localhost:5000/quote", {
+    fetch("https://demo-peacock.fly.dev/quote", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

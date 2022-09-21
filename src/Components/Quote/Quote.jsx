@@ -11,7 +11,7 @@ const Quote = () => {
   });
 
   useEffect(() => {
-    fetch("http://localhost:5000/quote")
+    fetch("https://demo-peacock.fly.dev/quote")
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
