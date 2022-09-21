@@ -1,0 +1,126 @@
+.events-content-container {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
+  margin-bottom: 100px;
+}
+.events-content-container > div {
+  width: 1200px;
+}
+
+.events-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.events-text h3 {
+  color: #fc916a;
+  font-size: 2rem;
+}
+.events-text-desc {
+  font-family: "Halyard Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Grey */
+
+  color: #737373;
+}
+.events-date {
+  font-family: "Halyard Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-align: center;
+margin-top: 20px;
+  /* Dark Cyan */
+
+  color: #436073;
+}
+.events-text-location {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height */
+  margin-top: 20px;
+  text-align: center;
+
+  /* Dark Cyan */
+
+  color: #436073;
+}
+.events-text p {
+  color: #436073;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.events-box {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.events-box > span {
+  color: #fc916a;
+  font-size: 2rem;
+}
+.events-list {
+  display: flex;
+  gap: 1rem;
+}
+.events-box-content {
+  width: 300px;
+  min-height: 400px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.events-box-content-img {
+  width: 100%;
+}
+.events-box-content-img img {
+  width: 100%;
+}
+.events-box-content-text {
+  text-align: center;
+  padding: 1rem;
+}
+.events-box-content-text h4 {
+  font-size: 1.5rem;
+  color: #fc916a;
+  margin-bottom: 1rem;
+}
+.events-box-content > div:nth-child(3) {
+  display: flex;
+  justify-content: center;
+}
+.events-button-group {
+  padding: 1rem 2rem ;
+}
+.btn-share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  font-size: 2rem;
+  border-radius: 0.3rem;
+  list-style: 2rem;
+  outline: none;
+  border: none;
+  margin-top: 2rem;
+  background-color: #fc916a;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-left: 0.5rem;
+}

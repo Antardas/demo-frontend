@@ -1,0 +1,111 @@
+.inspiration-content-container {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
+  margin-bottom: 100px;
+}
+.inspiration-content-container > div {
+  width: 1200px;
+}
+
+.inspiration-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.inspiration-text h3 {
+  color: #fc916a;
+  font-size: 2rem;
+}
+.inspiration-text-desc {
+  font-family: "Halyard Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 28px;
+
+  text-align: left;
+
+  /* Grey */
+
+  color: #fc916a;
+}
+.inspiration-box-content-text .date {
+  text-align: left;
+}
+.inspiration-date {
+  font-family: "Halyard Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-align: center;
+  margin-top: 20px;
+  /* Dark Cyan */
+
+  color: #436073;
+}
+.inspiration-text-location {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height */
+  margin-top: 20px;
+  text-align: center;
+
+  /* Dark Cyan */
+
+  color: #436073;
+}
+.inspiration-text p {
+  color: #436073;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.inspiration-box {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.inspiration-box > span {
+  color: #fc916a;
+  font-size: 2rem;
+}
+.inspiration-list {
+  display: flex;
+  gap: 1rem;
+}
+.inspiration-box-content {
+  width: 300px;
+
+  border-radius: 10px;
+}
+.inspiration-box-content-img {
+  width: 100%;
+}
+.inspiration-box-content-img img {
+  width: 100%;
+}
+.inspiration-box-content-text {
+  text-align: center;
+  padding: 1rem;
+}
+.inspiration-box-content-text h4 {
+  font-size: 1.5rem;
+  color: #fc916a;
+  margin-bottom: 1rem;
+}
+.inspiration-box-content > div:nth-child(3) {
+  display: flex;
+  justify-content: center;
+}
+
+.inspiration-box-content-text p {
+  color: #232323;
+  font-size: 1.2rem;
+}

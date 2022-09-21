@@ -1,0 +1,83 @@
+.video-redirect-container {
+  background-image: url("../../assets/images/shape1.png");
+  background-repeat: no-repeat;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+.video-redirect-content-container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.video-redirect-content-container > h1 {
+  font-family: "Halyard Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.video-redirect-content-container > button {
+  background: #fffdfd;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px 30px;
+  font-family: "Halyard Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color: #1f1f1f;
+  cursor: pointer;
+}
+
+.about-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #436073;
+}
+.about-content-container .content {
+  display: flex;
+  width: 1200px;
+  justify-content: space-evenly;
+  padding: 5rem 0;
+}
+.about-content-container .content .img {
+  width: 350px;
+}
+/* .about-content-container .content .img img {
+} */
+.about-content-container .content .about-content {
+  width: 500px;
+}
+.about-content-container .content .about-content h3 {
+  font-family: "Jubilat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 33px;
+  /* identical to box height */
+
+  /* Orange */
+
+  color: #fc916a;
+}
+.about-content-container .content .about-content p {
+  /* font-family: "Halyard Text"; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}

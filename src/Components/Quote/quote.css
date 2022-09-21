@@ -1,0 +1,47 @@
+.quote-container {
+  background-color: #fc916a;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  box-sizing: border-box;
+  height: 300px;
+}
+.quote-content-container {
+  display: flex;
+  width: 1200px;
+  justify-content: space-around;
+}
+.quote-content-container > div:nth-child(1) {
+}
+.quote-content-container > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+.quote-content-container > div:nth-child(3) {
+  display: flex;
+  align-items: flex-end;
+}
+.quote-details {
+}
+.quote-details .details {
+  font-family: "Jubilat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 40px;
+  text-align: center;
+}
+.quote-details .author {
+  font-family: "Halyard Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+}
