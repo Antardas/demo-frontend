@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, {  useState, useRef } from "react";
 import "./appNavbar.css";
 import { AiOutlineDown, AiOutlineMenu } from "react-icons/ai";
 import logo from "../../assets/images/logo.png";
