@@ -17,7 +17,7 @@ const Activities = () => {
           </div>
           <div className="inner">
             <span>
-              <img src={act1} alt="" />
+              <img src={act2} alt="" />
             </span>
             <span className="bg gray">
               <p>Sandeepany Gurukul</p>

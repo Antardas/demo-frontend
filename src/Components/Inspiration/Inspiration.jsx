@@ -3,9 +3,9 @@ import { BsArrowRightCircle, BsArrowLeftCircle } from "react-icons/bs";
 import img1 from "../../assets/images/insp1.png";
 import img2 from "../../assets/images/insp2.png";
 import img3 from "../../assets/images/insp3.png";
-import { FaRegCalendarAlt } from "react-icons/fa";
-import { GoLocation } from "react-icons/go";
-import { AiOutlineShareAlt } from "react-icons/ai";
+// import { FaRegCalendarAlt } from "react-icons/fa";
+// import { GoLocation } from "react-icons/go";
+// import { AiOutlineShareAlt } from "react-icons/ai";
 import "./inspiration.css";
 const data = [
   {

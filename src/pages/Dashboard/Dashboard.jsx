@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./dashboard.css";
 const Dashboard = () => {
   const [quote, setQuote] = React.useState({
@@ -20,7 +20,6 @@ const Dashboard = () => {
       body: JSON.stringify(quote),
     });
   };
-  
 
   return (
     <div onSubmit={onQuoteSubmit} className="dashboard-container">

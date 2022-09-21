@@ -1,7 +1,5 @@
 import React from "react";
-import exp1 from "../../assets/images/exp1.png";
-import exp2 from "../../assets/images/exp2.png";
-import exp3 from "../../assets/images/exp3.png";
+
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import "./experience.css";
 const Experience = () => {
