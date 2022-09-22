@@ -75,12 +75,12 @@
 }
 .menu-icon {
   display: none;
- border: none;
- background: none;
- border: none;
- color: #fc916a;
- font-size: 2rem;
- padding: 2rem;
+  border: none;
+  background: none;
+  border: none;
+  color: #fc916a;
+  font-size: 2rem;
+  padding: 2rem;
 }
 .icon-fixed {
   position: fixed;
@@ -89,6 +89,9 @@
   z-index: 1000;
 }
 
+.show {
+  z-index: 9;
+}
 /* Responsive */
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -108,46 +111,43 @@
   .menu-icon {
     position: absolute;
     display: block;
-    z-index: 1;
+    z-index: 10;
   }
 
+  /* Inline #5 | http://localhost:3000/ */
 
-/* Inline #5 | http://localhost:3000/ */
+  .content-container {
+    /* width: 1200px; */
+    width: 100%;
+    flex-direction: column;
+  }
 
-.content-container {
-  /* width: 1200px; */
-  width: 100%;
-  flex-direction: column;
-}
+  .menu-container > ul {
+    /* flex-direction: row; */
+    flex-direction: column;
+  }
+  .content-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
 
-.menu-container > ul {
-  /* flex-direction: row; */
-  flex-direction: column;
-}
-.content-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-}
-
-.content-container {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-}
-.menu-container > ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-
-
+  .content-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .menu-container > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
 }
 /* Mobile */
 
@@ -158,6 +158,7 @@
   /* height: 100px; */
   flex-direction: column;
   height: auto;
+  z-index: 9;
 }
 
 @media screen and (max-width: 767px) {
@@ -174,7 +175,7 @@
   .menu-icon {
     position: absolute;
     display: block;
-    z-index: 1;
+    z-index: 10;
   }
 
   .content-container {

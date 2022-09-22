@@ -22,7 +22,7 @@ const Quote = () => {
     <div className="quote-container">
       <div className="quote-content-container">
         <div>
-          <img src={vector} alt="" />
+          <img className="vactor-img" src={vector} alt="" />
         </div>
         <div>
           <div>
@@ -34,7 +34,7 @@ const Quote = () => {
           </div>
         </div>
         <div>
-          <img src={vector1} alt="" />
+          <img className="vactor-img" src={vector1} alt="" />
         </div>
       </div>
     </div>

@@ -1,10 +1,11 @@
 .inspiration-content-container {
+  width: 100%;
+
   display: flex;
   justify-content: center;
-  padding: 5rem 0;
-  margin-bottom: 100px;
 }
-.inspiration-content-container > div {
+
+.inspiration-top-second-container {
   width: 1200px;
 }
 
@@ -27,7 +28,6 @@
 
   text-align: left;
 
-  /* Grey */
 
   color: #fc916a;
 }
@@ -43,7 +43,6 @@
 
   text-align: center;
   margin-top: 20px;
-  /* Dark Cyan */
 
   color: #436073;
 }
@@ -52,11 +51,9 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  /* identical to box height */
   margin-top: 20px;
   text-align: center;
 
-  /* Dark Cyan */
 
   color: #436073;
 }
@@ -66,11 +63,8 @@
   font-weight: 500;
   margin-top: 1rem;
 }
-.inspiration-box {
-  display: flex;
-  margin-top: 2rem;
-  justify-content: space-between;
-  align-items: center;
+ .inspiration-box-content {
+margin: 0 auto;
 }
 .inspiration-box > span {
   color: #fc916a;
@@ -108,4 +102,112 @@
 .inspiration-box-content-text p {
   color: #232323;
   font-size: 1.2rem;
+} /**/
+
+/* Tablet */
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
+  .inspiration-content-container {
+    width: 100%;
+  }
+  .inspiration-top-second-container {
+    width: 100%;
+  }
+  .inspiration-box-content {
+    width: 100%;
+  }
+  .inspiration-box-content-text {
+    padding: 1rem;
+  }
+  .inspiration-box-content-text p {
+    font-size: 1rem;
+  }
+  .inspiration-box-content-text h4 {
+    font-size: 1.2rem;
+  }
+  .inspiration-box-content-text .date {
+    font-size: 1rem;
+  }
+  .inspiration-text-desc {
+    font-size: 1rem;
+  }
+  .inspiration-text-location {
+    font-size: 1rem;
+  }
+  .inspiration-text p {
+    font-size: 1rem;
+  }
+  .inspiration-text h3 {
+    font-size: 1.5rem;
+  }
+  .inspiration-box-content-text .date {
+    font-size: 1rem;
+  }
+  .inspiration-date {
+    font-size: 1rem;
+  }
+  .inspiration-text-location {
+    font-size: 1rem;
+  }
+  .inspiration-text p {
+    font-size: 1rem;
+  }
+  .inspiration-text h3 {
+    font-size: 1.5rem;
+  }
+  .inspiration-box-content-text .date {
+    font-size: 1rem;
+  }
+  .inspiration-date {
+    font-size: 1rem;
+  }
+  .inspiration-text-location {
+    font-size: 1rem;
+  }
+  .inspiration-text p {
+    font-size: 1rem;
+  }
+  .inspiration-text h3 {
+    font-size: 1.5rem;
+  }
+  .inspiration-box-content-text .date {
+    font-size: 1rem;
+  }
+  .inspiration-date {
+    font-size: 1rem;
+  }
+  .inspiration-text-location {
+    font-size: 1rem;
+  }
+  .inspiration-text p {
+    font-size: 1rem;
+  }
+  .inspiration-text h3 {
+    font-size: 1.5rem;
+  }
+  .inspiration-box-content-text .date {
+    font-size: 1rem;
+  }
+}
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+
+  .experience-image-section {
+    flex-wrap: wrap;
+  }
+
+  .image-container > span {
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+  }
+
+  
+
+  .experience-header-section h4 {
+    font-size: 1.3rem;
+  }
+
+  .experience-header-section p {
+    font-size: 1.1rem;
+  }
 }

@@ -45,3 +45,11 @@
   color: #ffffff;
   text-align: center;
 }
+@media screen and (max-width: 767px) {
+  .vactor-img {
+    display: none;
+  }
+  .details {
+    width: 100%;
+  }
+}

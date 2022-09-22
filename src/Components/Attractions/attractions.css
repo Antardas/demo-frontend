@@ -1,33 +1,17 @@
-.attraction-content-container {
-  display: flex;
-  justify-content: center;
-  padding: 5rem 0;
-}
+/* 
 .attraction-content-container > div {
   width: 1200px;
 }
 
-.attraction-text {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 50px;
-  align-items: center;
-}
-.attraction-text h3 {
-  color: #fc916a;
-}
-.attraction-text p {
-  color: rgb(26, 26, 26);
-  margin-top: 0 1rem;
-  font-size: 1.2rem;
-}
+
+
 .attraction-box {
   display: flex;
   margin-top: 2rem;
   justify-content: space-between;
   align-items: center;
-}
-.attraction-box > span {
+} */
+/* .attraction-box > span {
   color: #fc916a;
   font-size: 2rem;
 }
@@ -55,4 +39,112 @@
 .attraction-box-content > div:nth-child(3) {
   display: flex;
   justify-content: center;
+} */
+/* .attraction-content-container {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
+} */
+.attraction-top-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.attraction-top-second-wrapper {
+  width: 1200px;
+}
+.attraction-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attraction-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.attraction-card-text > h4 {
+  color: #fc916a;
+  text-align: center;
+  font-size: 1.7rem;
+}
+.attraction-text p {
+  color: rgb(26, 26, 26);
+  margin-top: 0 1rem;
+  font-size: 1.2rem;
+}
+
+/* Responsive */
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .attraction-box {
+    flex-direction: column;
+  }
+  .attraction-box > span {
+    margin-bottom: 1rem;
+  }
+  .attraction-box-content {
+    width: 100%;
+  }
+  .attraction-box-content-text {
+    margin-top: 1rem;
+  }
+  .attraction-box-content-text h4 {
+    font-size: 1.2rem;
+  }
+  .attraction-box-content > div:nth-child(3) {
+    margin-top: 1rem;
+  }
+  .attraction-top-wrapper {
+    margin: 2rem 0;
+  }
+  .attraction-top-second-wrapper {
+    width: 100%;
+  }
+  .attraction-text {
+    margin-bottom: 0;
+  }
+  .attraction-card-text > h4 {
+    font-size: 1.5rem;
+  }
+  .attraction-text p {
+    font-size: 1rem;
+  }
+  .attraction-list {
+  padding: 0.5rem;
+}
+}
+/* Mobile */
+
+@media screen and (max-width: 767px) {
+  .attraction-top-second-wrapper {
+    width: calc(100% - 40px);
+  }
+  .attraction-card-image {
+    display: flex;
+    justify-content: center;
+  }
+  .attraction-card-container {
+    padding: 1.2rem 0;
+    box-sizing: border-box;
+  }
+  Inline #20 .attraction-card-image {
+    display: flex;
+    justify-content: center;
+  }
+  .attraction-card-container {
+    padding: 1.2rem 0;
+    box-sizing: border-box;
+  }
+  .attraction-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
 }

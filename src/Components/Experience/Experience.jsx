@@ -7,7 +7,7 @@ const Experience = () => {
     <div className="experience-container">
       <div className="experience-content-container">
         <div className="experience-header-section">
-          <h4>Inspirations</h4>
+          <h4>Experience</h4>
           <p>Grasp new knowledge and experiences by reading these articles</p>
         </div>
         <div className="experience-image-section">

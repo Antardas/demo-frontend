@@ -11,12 +11,12 @@ const Activities = () => {
             <span className="bg orange">
               <p>Spiritual Camps</p>
             </span>
-            <span>
+            <span className="inner-image">
               <img src={act1} alt="" />
             </span>
           </div>
           <div className="inner">
-            <span>
+            <span className="inner-image">
               <img src={act2} alt="" />
             </span>
             <span className="bg gray">

@@ -30,3 +30,24 @@ li {
   width: calc((1200px - 300px) / 3);
   padding-left: 1.2rem;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+
+  .footer-content-container > div:nth-child(1) {
+    flex-wrap: wrap;
+  }
+
+  .footer-content-container {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .useful-links-container {
+    width: 100%;
+  }
+
+  .useful-links-container > div {
+    width: calc(100% / 3);
+  }
+}

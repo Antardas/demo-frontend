@@ -61,3 +61,52 @@ input {
   font-size: 1.2rem;
   color: #fc916a;
 }
+
+@media screen and (max-width: 767px) {
+  .subscribe-text h3 {
+    font-size: 1.3rem;
+  }
+
+  .subscribe-text p {
+    font-size: 1.1rem;
+  }
+
+  .subscribe-content-container {
+    width: 100%;
+  }
+  .subscribe-form > form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .subscribe-text p {
+    width: 80%;
+  }
+  .subscribe-content-container {
+    height: auto;
+  }
+
+  /* Inline #19 | http://localhost:3000/ */
+
+  .subscribe-content-container {
+    /* height: 300px; */
+    height: auto;
+  }
+
+  /* Inline #14 | http://localhost:3000/ */
+
+  .footer-content-container > div:nth-child(1) {
+    flex-direction: column;
+  }
+
+  .footer-content-container {
+    /* width: 1200px; */
+    width: 100%;
+  }
+
+  .useful-links-container {
+    /* width: calc(1200px - 300px); */
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}

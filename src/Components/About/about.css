@@ -1,15 +1,28 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-container > div:nth-child(1) {
+  width: 100%;
+}
+
 .video-redirect-container {
   background-image: url("../../assets/images/shape1.png");
   background-repeat: no-repeat;
   height: 120px;
   display: flex;
   justify-content: center;
+  background-size: cover;
 }
 .video-redirect-content-container {
   width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  padding: 0 2rem;
+  box-sizing: border-box;
 }
 .video-redirect-content-container > h1 {
   font-family: "Halyard Text";
@@ -80,4 +93,77 @@
   align-items: center;
 
   color: #ffffff;
+}
+
+/* Responsive */
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Inline #3 | http://localhost:3000/ */
+
+  .about-content-container .content {
+    /* width: 1200px; */
+    /* justify-content: space-evenly; */
+    width: calc(100% - 40px);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-content-container .content .img {
+    /* width: 350px; */
+    width: 248px;
+  }
+
+  /* Element | http://localhost:3000/ */
+
+  .img > img:nth-child(1) {
+    width: 100%;
+  }
+}
+
+/* Mobile  */
+@media screen and (max-width: 767px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    width: calc(100% - 40px);
+  }
+  .about-content-container .content .about-content {
+    width: calc(100% - 40px);
+  }
+
+  /* Inline #3 | http://localhost:3000/ */
+
+  .about-content-container .content .img {
+    width: 200px;
+  }
+
+  .about-content-container .content {
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+
+  .img > img:nth-child(1) {
+    width: 100%;
+  }
+  .about-content-container .content {
+    display: flex;
+    width: 1200px;
+    justify-content: space-evenly;
+    padding: 3rem 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .video-redirect-content-container > h1 {
+    font-size: 20px;
+    line-height: 15px;
+  }
+  .video-redirect-content-container > button {
+    padding: 7px 20px;
+    line-height: 13px;
+  }
 }
