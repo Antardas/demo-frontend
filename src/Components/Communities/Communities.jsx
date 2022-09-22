@@ -11,7 +11,7 @@ const Communities = () => {
         </div>
         <div className="community-details">
           <div className="community-image">
-            <img src={cmt} alt="" />
+            <img  src={cmt} alt="" />
           </div>
           <div className="community-founder">
             <p>

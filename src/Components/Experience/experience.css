@@ -1,5 +1,4 @@
 .experience-container {
-  
   margin: 100px 0;
 }
 .experience-content-container {
@@ -12,11 +11,13 @@
 }
 .experience-image-section {
   display: flex;
+  width: 100%;
 }
 
 .experience-header-section {
   text-align: center;
   padding: 3rem 0;
+  /* width: 100%; */
 }
 .experience-header-section h4 {
   color: #fc916a;
@@ -82,19 +83,21 @@
   font-size: 2rem;
   padding: 0.5rem;
 }
-@media screen and (max-width: 767px) {
-  .experience-image-section {
-    justify-content: center;
-  }
-}
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .image-container > span {
     font-size: 1.5rem;
   }
+  .experience-header-section {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .image-container {
+    width: 100%;
+    height: 200px;
+  }
   .experience-image-section {
     justify-content: center;
   }
