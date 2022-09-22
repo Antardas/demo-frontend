@@ -28,7 +28,6 @@
 
   text-align: left;
 
-
   color: #fc916a;
 }
 .inspiration-box-content-text .date {
@@ -54,7 +53,6 @@
   margin-top: 20px;
   text-align: center;
 
-
   color: #436073;
 }
 .inspiration-text p {
@@ -63,8 +61,8 @@
   font-weight: 500;
   margin-top: 1rem;
 }
- .inspiration-box-content {
-margin: 0 auto;
+.inspiration-box-content {
+  margin: 0 auto;
 }
 .inspiration-box > span {
   color: #fc916a;
@@ -105,7 +103,7 @@ margin: 0 auto;
 } /**/
 
 /* Tablet */
-@media screen and  (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .inspiration-content-container {
     width: 100%;
   }
@@ -191,7 +189,6 @@ margin: 0 auto;
 /* Mobile */
 
 @media screen and (max-width: 767px) {
-
   .experience-image-section {
     flex-wrap: wrap;
   }
@@ -200,8 +197,9 @@ margin: 0 auto;
     transform: translate(-50%, -50%);
     font-size: 1.5rem;
   }
-
-  
+  .inspiration-top-second-container {
+    width: 100%;
+  }
 
   .experience-header-section h4 {
     font-size: 1.3rem;
