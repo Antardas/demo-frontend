@@ -113,12 +113,13 @@
     background-color: white;
     left: 0;
     width: calc(100% - 20px);
-    padding: 3rem 3rem;
+    padding: 3rem 1.5rem;
+    height: auto;
   }
   .community-founder p:nth-child(1) {
     font-weight: 400;
     font-size: 1.1rem;
-    line-height: 40px;
+    line-height: 20px;
     text-align: justify;
 
     /* Dark Cyan */
