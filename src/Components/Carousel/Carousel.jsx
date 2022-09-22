@@ -1,6 +1,6 @@
 import React from "react";
 import "./carousel.css";
-import image1 from "../../assets/images/slider/img1.png";
+// import image1 from "../../assets/images/slider/img1.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles

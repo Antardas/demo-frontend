@@ -1,5 +1,5 @@
 import React from "react";
-import { BsArrowRightCircle, BsArrowLeftCircle } from "react-icons/bs";
+// import { BsArrowRightCircle, BsArrowLeftCircle } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles

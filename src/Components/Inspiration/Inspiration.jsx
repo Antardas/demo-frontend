@@ -1,5 +1,5 @@
 import React from "react";
-import { BsArrowRightCircle, BsArrowLeftCircle } from "react-icons/bs";
+// import { BsArrowRightCircle, BsArrowLeftCircle } from "react-icons/bs";
 import img1 from "../../assets/images/insp1.png";
 import img2 from "../../assets/images/insp2.png";
 import img3 from "../../assets/images/insp3.png";
