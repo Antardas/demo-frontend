@@ -82,6 +82,12 @@
 .events-box-content-img {
   width: 100%;
 }
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .events-box-content-img img {
   width: 100%;
 }
@@ -129,8 +135,6 @@
   }
 }
 
-
-
 /* Mobile */
 @media screen and (max-width: 767px) {
   .events-top-second-container {
@@ -147,4 +151,3 @@
     margin: 0 auto;
   }
 }
-

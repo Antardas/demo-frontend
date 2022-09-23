@@ -19,10 +19,11 @@
   border-radius: 0px;
 }
 .content-container {
-  width: 1200px;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2rem;
 }
 .logo-text {
   display: flex;

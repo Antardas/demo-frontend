@@ -18,7 +18,8 @@ const Home = () => {
     <div>
       <Navbar />
       <AppNavbar />
-       <Carousel />
+      <Carousel />
+      
       <About />
       <Attractions />
       <Activities />

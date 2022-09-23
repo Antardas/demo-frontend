@@ -111,28 +111,30 @@ const Events = () => {
               {data.map((item, index) => {
                 return (
                   <SwiperSlide key={index}>
-                    <div className="events-box-content">
-                      <div className="events-box-content-img">
-                        <img src={item.img} alt="events" />
-                      </div>
-                      <div className="events-box-content-text">
-                        <h4>{item.heading}</h4>
-                        <p className="events-date">
-                          <span>{<FaRegCalendarAlt />}</span> {item.date}
-                        </p>
-                        <p className="events-text-desc">{item.description}</p>
-                        <p className="events-text-location">
-                          <span>
-                            <GoLocation />
-                          </span>
-                          {item.location}
-                        </p>
-                      </div>
-                      <div className="events-button-group">
-                        <button className="btn">View Details</button>
-                        <button className="btn-share">
-                          {<AiOutlineShareAlt />}
-                        </button>
+                    <div className="main-container">
+                      <div className="events-box-content">
+                        <div className="events-box-content-img">
+                          <img src={item.img} alt="events" />
+                        </div>
+                        <div className="events-box-content-text">
+                          <h4>{item.heading}</h4>
+                          <p className="events-date">
+                            <span>{<FaRegCalendarAlt />}</span> {item.date}
+                          </p>
+                          <p className="events-text-desc">{item.description}</p>
+                          <p className="events-text-location">
+                            <span>
+                              <GoLocation />
+                            </span>
+                            {item.location}
+                          </p>
+                        </div>
+                        <div className="events-button-group">
+                          <button className="btn">View Details</button>
+                          <button className="btn-share">
+                            {<AiOutlineShareAlt />}
+                          </button>
+                        </div>
                       </div>
                     </div>
                   </SwiperSlide>

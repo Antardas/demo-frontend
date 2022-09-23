@@ -119,10 +119,10 @@
     flex-direction: column;
   }
 
-  /* Inline #13 | http://localhost:3000/ */
-
   .search-container {
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .search-box {
     width: 250px;
