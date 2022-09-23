@@ -85,6 +85,9 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+  .experience-container{
+    margin: 20px 0;
+  }
   .image-container > span {
     font-size: 1.5rem;
   }
